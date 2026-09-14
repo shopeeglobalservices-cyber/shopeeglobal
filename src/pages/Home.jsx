@@ -1,10 +1,10 @@
-import SEO from "@/components/SEO";
-import Marquee from "@/components/Marquee";
-import CTASection from "@/components/CTASection";
-import HomeHero from "@/components/home/HomeHero";
-import CapabilitiesSection from "@/components/home/CapabilitiesSection";
-import ChallengesSection from "@/components/home/ChallengesSection";
-import { ApproachSection, ProcessSection, StrengthsSection, FeaturedInsightsSection } from "@/components/home/HomeSections";
+import SEO from "components/SEO";
+import Marquee from "components/Marquee";
+import CTASection from "components/CTASection";
+import HomeHero from "components/home/HomeHero";
+import CapabilitiesSection from "components/home/CapabilitiesSection";
+import ChallengesSection from "components/home/ChallengesSection";
+import { ApproachSection, ProcessSection, StrengthsSection, FeaturedInsightsSection } from "components/home/HomeSections";
 
 const MARQUEE_ITEMS = [
     "E-commerce Services",

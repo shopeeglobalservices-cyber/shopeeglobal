@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
-import SEO from "@/components/SEO";
-import PageHero from "@/components/PageHero";
-import CTASection from "@/components/CTASection";
-import BrandImage from "@/components/BrandImage";
-import { Reveal } from "@/components/Reveal";
-import { services } from "@/data/services";
-import { IMAGES } from "@/data/images";
+import SEO from "components/SEO";
+import PageHero from "components/PageHero";
+import CTASection from "components/CTASection";
+import BrandImage from "components/BrandImage";
+import { Reveal } from "components/Reveal";
+import { services } from "data/services";
+import { IMAGES } from "data/images";
 
 const BREADCRUMBS = [{ label: "About Us" }];
 const VALUES = [

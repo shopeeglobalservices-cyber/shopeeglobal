@@ -1,7 +1,7 @@
-import SEO from "@/components/SEO";
-import PageHero from "@/components/PageHero";
-import { Reveal } from "@/components/Reveal";
-import { SITE } from "@/data/site";
+import SEO from "components/SEO";
+import PageHero from "components/PageHero";
+import { Reveal } from "components/Reveal";
+import { SITE } from "data/site";
 
 const SECTIONS = [
     {

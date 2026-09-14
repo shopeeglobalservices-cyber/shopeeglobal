@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
-import SEO from "@/components/SEO";
-import NetworkCanvas from "@/components/NetworkCanvas";
-import { MaskedLine, FadeIn } from "@/components/Reveal";
+import SEO from "components/SEO";
+import NetworkCanvas from "components/NetworkCanvas";
+import { MaskedLine, FadeIn } from "components/Reveal";
 
 const NotFound = () => (
     <>

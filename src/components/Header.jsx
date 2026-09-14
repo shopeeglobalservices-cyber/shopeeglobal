@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { ChevronDown, Menu, X, Mail } from "lucide-react";
-import { NAV_ITEMS, mailto, SITE } from "@/data/site";
+import { NAV_ITEMS, mailto, SITE } from "data/site";
 import { Logo } from "./Logo";
 import ServicesDropdown from "./ServicesDropdown";
 import MobileDrawer from "./MobileDrawer";

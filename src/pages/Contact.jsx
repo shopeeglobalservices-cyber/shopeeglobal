@@ -1,10 +1,10 @@
 import { Mail, MapPin, ExternalLink, Linkedin, ArrowUpRight } from "lucide-react";
-import SEO from "@/components/SEO";
-import PageHero from "@/components/PageHero";
-import BrandImage from "@/components/BrandImage";
-import { Reveal } from "@/components/Reveal";
-import { SITE, MAP_URL, BUSINESS_EMAIL_LINK } from "@/data/site";
-import { IMAGES } from "@/data/images";
+import SEO from "components/SEO";
+import PageHero from "components/PageHero";
+import BrandImage from "components/BrandImage";
+import { Reveal } from "components/Reveal";
+import { SITE, MAP_URL, BUSINESS_EMAIL_LINK } from "data/site";
+import { IMAGES } from "data/images";
 
 const BREADCRUMBS = [{ label: "Contact" }];
 const NOTES = [

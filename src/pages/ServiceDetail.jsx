@@ -1,17 +1,17 @@
 import { useMemo } from "react";
 import { Link, useParams } from "react-router-dom";
 import { ArrowUpRight, Check, CircleAlert } from "lucide-react";
-import SEO from "@/components/SEO";
-import PageHero from "@/components/PageHero";
-import CTASection from "@/components/CTASection";
-import ProcessTimeline from "@/components/ProcessTimeline";
-import Faq from "@/components/Faq";
-import ServiceIcon from "@/components/ServiceIcon";
-import { Reveal } from "@/components/Reveal";
-import { getService, services, supportingServices } from "@/data/services";
+import SEO from "components/SEO";
+import PageHero from "components/PageHero";
+import CTASection from "components/CTASection";
+import ProcessTimeline from "components/ProcessTimeline";
+import Faq from "components/Faq";
+import ServiceIcon from "components/ServiceIcon";
+import { Reveal } from "components/Reveal";
+import { getService, services, supportingServices } from "data/services";
 import NotFound from "./NotFound";
-import BrandImage from "@/components/BrandImage";
-import { IMAGES } from "@/data/images";
+import BrandImage from "components/BrandImage";
+import { IMAGES } from "data/images";
 
 const ServiceDetail = () => {
     const { slug } = useParams();

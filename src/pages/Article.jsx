@@ -1,15 +1,15 @@
 import { useMemo, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Check, Link2, ArrowLeft } from "lucide-react";
-import SEO from "@/components/SEO";
-import CTASection from "@/components/CTASection";
-import Breadcrumbs from "@/components/Breadcrumbs";
-import ArticleCard from "@/components/ArticleCard";
-import BrandImage from "@/components/BrandImage";
-import { MaskedLine, FadeIn, Reveal } from "@/components/Reveal";
-import { getArticle, relatedArticles } from "@/data/insights";
-import { articleCover } from "@/data/images";
-import { formatDate } from "@/utils/format";
+import SEO from "components/SEO";
+import CTASection from "components/CTASection";
+import Breadcrumbs from "components/Breadcrumbs";
+import ArticleCard from "components/ArticleCard";
+import BrandImage from "components/BrandImage";
+import { MaskedLine, FadeIn, Reveal } from "components/Reveal";
+import { getArticle, relatedArticles } from "data/insights";
+import { articleCover } from "data/images";
+import { formatDate } from "utils/format";
 import NotFound from "./NotFound";
 
 const blockKey = (block) => block.text || block.items.join("|");

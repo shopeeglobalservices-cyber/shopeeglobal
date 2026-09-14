@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Linkedin } from "lucide-react";
-import { SITE, mailto } from "@/data/site";
-import { services } from "@/data/services";
+import { SITE, mailto } from "data/site";
+import { services } from "data/services";
 import { Logo } from "./Logo";
 
 const EMAIL_LINK = mailto(SITE.email, "Business Enquiry - Shopee Global");

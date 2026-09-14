@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import { ArrowUpRight, Check } from "lucide-react";
-import SEO from "@/components/SEO";
-import PageHero from "@/components/PageHero";
-import CTASection from "@/components/CTASection";
-import ServiceIcon from "@/components/ServiceIcon";
-import { Reveal } from "@/components/Reveal";
-import { services, supportingServices } from "@/data/services";
-import BrandImage from "@/components/BrandImage";
-import { IMAGES } from "@/data/images";
+import SEO from "components/SEO";
+import PageHero from "components/PageHero";
+import CTASection from "components/CTASection";
+import ServiceIcon from "components/ServiceIcon";
+import { Reveal } from "components/Reveal";
+import { services, supportingServices } from "data/services";
+import BrandImage from "components/BrandImage";
+import { IMAGES } from "data/images";
 
 const BREADCRUMBS = [{ label: "Services" }];
 

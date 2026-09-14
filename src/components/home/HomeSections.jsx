@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
-import ApproachDiagram from "@/components/ApproachDiagram";
-import ProcessTimeline from "@/components/ProcessTimeline";
-import BrandImage from "@/components/BrandImage";
-import ArticleCard from "@/components/ArticleCard";
-import { Reveal } from "@/components/Reveal";
-import { IMAGES } from "@/data/images";
-import { publishedArticles } from "@/data/insights";
+import ApproachDiagram from "components/ApproachDiagram";
+import ProcessTimeline from "components/ProcessTimeline";
+import BrandImage from "components/BrandImage";
+import ArticleCard from "components/ArticleCard";
+import { Reveal } from "components/Reveal";
+import { IMAGES } from "data/images";
+import { publishedArticles } from "data/insights";
 
 const STRENGTHS = [
     { title: "Integrated capabilities under one roof", text: "Technology, e-commerce, digital growth, tele-calling, and customer support—coordinated by one accountable partner." },

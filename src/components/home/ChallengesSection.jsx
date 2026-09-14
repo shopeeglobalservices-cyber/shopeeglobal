@@ -1,7 +1,7 @@
 import { Gauge, Eye, Layers, PhoneMissed, BarChart3, Scaling } from "lucide-react";
-import BrandImage from "@/components/BrandImage";
-import { Reveal } from "@/components/Reveal";
-import { IMAGES } from "@/data/images";
+import BrandImage from "components/BrandImage";
+import { Reveal } from "components/Reveal";
+import { IMAGES } from "data/images";
 
 const CHALLENGES = [
     { icon: Gauge, text: "Slow, unreliable, or outdated digital platforms that quietly tax every team that depends on them." },

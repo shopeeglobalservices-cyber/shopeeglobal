@@ -1,5 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
-import { BUSINESS_EMAIL_LINK, SITE } from "@/data/site";
+import { BUSINESS_EMAIL_LINK, SITE } from "data/site";
 import { Reveal } from "./Reveal";
 
 const CTASection = ({

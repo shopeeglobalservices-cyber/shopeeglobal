@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from "framer-motion";
-import { engagementProcess } from "@/data/services";
+import { engagementProcess } from "data/services";
 
 const ProcessTimeline = ({ steps = engagementProcess, numbered = true }) => {
     const reduced = useReducedMotion();

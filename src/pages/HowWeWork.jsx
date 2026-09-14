@@ -1,9 +1,9 @@
-import SEO from "@/components/SEO";
-import PageHero from "@/components/PageHero";
-import CTASection from "@/components/CTASection";
-import { Reveal } from "@/components/Reveal";
-import BrandImage from "@/components/BrandImage";
-import { IMAGES } from "@/data/images";
+import SEO from "components/SEO";
+import PageHero from "components/PageHero";
+import CTASection from "components/CTASection";
+import { Reveal } from "components/Reveal";
+import BrandImage from "components/BrandImage";
+import { IMAGES } from "data/images";
 
 const STAGES = [
     {

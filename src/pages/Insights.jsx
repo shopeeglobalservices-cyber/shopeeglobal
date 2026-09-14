@@ -1,15 +1,15 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { Search } from "lucide-react";
-import SEO from "@/components/SEO";
-import PageHero from "@/components/PageHero";
-import CTASection from "@/components/CTASection";
-import ArticleCard from "@/components/ArticleCard";
-import BrandImage from "@/components/BrandImage";
-import { Reveal } from "@/components/Reveal";
-import { insightCategories, publishedArticles } from "@/data/insights";
-import { IMAGES, articleCover } from "@/data/images";
-import { formatDate } from "@/utils/format";
+import SEO from "components/SEO";
+import PageHero from "components/PageHero";
+import CTASection from "components/CTASection";
+import ArticleCard from "components/ArticleCard";
+import BrandImage from "components/BrandImage";
+import { Reveal } from "components/Reveal";
+import { insightCategories, publishedArticles } from "data/insights";
+import { IMAGES, articleCover } from "data/images";
+import { formatDate } from "utils/format";
 
 const BREADCRUMBS = [{ label: "Insights" }];
 const FILTERS = ["All", ...insightCategories];

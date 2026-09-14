@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { formatDate } from "@/utils/format";
+import { formatDate } from "utils/format";
 import BrandImage from "./BrandImage";
-import { articleCover } from "@/data/images";
+import { articleCover } from "data/images";
 
 const ArticleCard = ({ article, featured = false }) => (
     <Link

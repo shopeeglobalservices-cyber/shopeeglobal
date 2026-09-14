@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
-import ServiceIcon from "@/components/ServiceIcon";
-import BrandImage from "@/components/BrandImage";
-import { Reveal } from "@/components/Reveal";
-import { services } from "@/data/services";
-import { IMAGES } from "@/data/images";
+import ServiceIcon from "components/ServiceIcon";
+import BrandImage from "components/BrandImage";
+import { Reveal } from "components/Reveal";
+import { services } from "data/services";
+import { IMAGES } from "data/images";
 
 const CapabilityCard = ({ service, delay }) => (
     <Reveal delay={delay} className="h-full">

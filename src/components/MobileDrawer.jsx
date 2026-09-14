@@ -1,8 +1,8 @@
 import { Link, NavLink } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { Mail } from "lucide-react";
-import { NAV_ITEMS, SITE } from "@/data/site";
-import { services } from "@/data/services";
+import { NAV_ITEMS, SITE } from "data/site";
+import { services } from "data/services";
 
 const FADE_FROM = { opacity: 0 };
 const FADE_TO = { opacity: 1 };

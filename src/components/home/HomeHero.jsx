@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
-import NetworkCanvas from "@/components/NetworkCanvas";
-import BrandImage from "@/components/BrandImage";
-import { MaskedLine, FadeIn } from "@/components/Reveal";
-import { IMAGES } from "@/data/images";
-import { SITE, mailto } from "@/data/site";
+import NetworkCanvas from "components/NetworkCanvas";
+import BrandImage from "components/BrandImage";
+import { MaskedLine, FadeIn } from "components/Reveal";
+import { IMAGES } from "data/images";
+import { SITE, mailto } from "data/site";
 
 const EMAIL_LINK = mailto(SITE.email);
 const FADE_STYLE = { background: "linear-gradient(100deg, #F5F7FA 30%, rgba(245,247,250,0.9) 55%, rgba(245,247,250,0.35) 100%)" };

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
-import { services, supportingServices } from "@/data/services";
+import { services, supportingServices } from "data/services";
 
 const PANEL_FROM = { opacity: 0, y: 10 };
 const PANEL_TO = { opacity: 1, y: 0 };
